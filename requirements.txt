@@ -1,6 +1,6 @@
 streamlit
 pandas
 matplotlib
-sdv==1.8.0
+sdv[tabular]
 scikit-learn
 numpy
