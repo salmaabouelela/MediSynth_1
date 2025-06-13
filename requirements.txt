@@ -1,4 +1,4 @@
 streamlit
 pandas
 matplotlib
-sdv[tabular]==1.8.1
+sdv==1.8.0
