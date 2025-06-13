@@ -6,7 +6,7 @@ from sdv.tabular import GaussianCopula
 import matplotlib.pyplot as plt
 
 # Title
-st.title("?? MediSynth - Synthetic Medical Data Platform")
+st.title("MediSynth - Synthetic Medical Data Platform")
 st.markdown("Localized for **Turkey and the MENA Region**")
 
 # Sidebar for language selection
