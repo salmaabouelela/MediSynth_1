@@ -18,16 +18,16 @@ country = st.selectbox("🌍 Choose country", ["Turkey", "Egypt", "Lebanon", "Jo
 
 # --- Mapping language to file name ---
 file_map = {
-    "English": "diabetes_translated_english.csv",
-    "Arabic": "diabetes_translated_arabic.csv",
-    "Turkish": "diabetes_translated_turkish.csv",
-    "French": "diabetes_translated_french.csv"
+    "English": "diabetes_translated_english.xlsx",
+    "Arabic": "diabetes_translated_arabic.xlsx",
+    "Turkish": "diabetes_translated_turkish.xlsx",
+    "French": "diabetes_translated_french.xlsx"
 }
 
 # --- Load the data file based on language ---
 @st.cache_data
 def load_data(file_name):
-    return pd.read_csv(file_name)
+    return pd.read_excel(file_name)
 
 try:
     df = load_data(file_map[language])
