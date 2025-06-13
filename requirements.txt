@@ -1,4 +1,6 @@
 streamlit
 pandas
 matplotlib
-sdv
+sdv==1.8.0
+scikit-learn
+numpy
